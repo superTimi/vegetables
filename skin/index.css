@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+ margin:0px;
+ padding:0px;
+ border:0px;
+ img:0px;
+}
+
+body{
+ font-size:12px;
+ font-family:"宋体";
+ color:#333333;
+}
+a{
+ text-decoration:none;
+ color:#333333;
+}
+.logo{
+ width:980px;
+ height:90px;
+ margin:0px auto;
+ background:url(../images/bj.jpg);
+}
+.logo ul li{
+ list-style:none;
+ display:inline;
+}
+
+.menu{
+ width:980px;
+ height:25px;
+ margin:0px auto;
+ background:url(../images/daohang.jpg);
+ padding-top:10px;
+}
+.menu ul li{
+ list-style:none;
+ display:inline;
+ margin-left:30px;
+ font-size:14px;
+ 
+}
+.menu a{
+ color:#ffffff;
+ text-decoration:none;
+ font-weight:bold;
+}
+
+/*广告专区*/
+.guanggao{
+ width:980px;
+ height:242px;
+ margin:10px auto;
+}
+
+/*内容*/
+.content{
+ width:980px;
+ height:auto;
+ margin:0px auto;
+}
+.contlet{
+ width:718px;
+ height:auto;
+ float:left;
+}
+
+/*首页新闻资讯*/
+.contlet1{
+ width:716px;
+ height:264px;
+ border:1px solid #dadada;
+}
+.contlet1_a{
+ height:26px;
+ background:url(../images/lanmu.jpg) no-repeat;
+ margin:6px 0px 8px 2px;
+}
+.contlet1_a p{
+ width:200px;
+ height:20px;
+ padding:7px 0px 0px 25px;
+ color:#ffffff;
+ font-size:14px;
+ font-weight:bold;
+ float:left;
+}
+.contlet1_a span{
+ float:right;
+ height:20px;
+ margin:6px 15px 0px;
+ font-size:13px;
+ 
+}
+.contlet1_a span a{
+ color:#333333;
+ text-decoration:none;
+}
+.contlet1_a a:hover{
+  text-decoration:underline;
+  color:#f92d15;
+ } 
+.contlet1_b{
+ width:352px;
+ height:220px;
+ float:left;
+ margin:0px 15px 0px 4px;
+}
+.contlet1_c{
+ width:340px;
+ height:220px;
+ float:left;
+}
+
+/*培训课程*/
+.contlet2{
+ width:716px;
+ height:38px;
+ border:1px solid #dadada;
+ margin:10px 0px;
+}
+.contlet_a{
+ width:718px;
+ height:274px;
+ clear:both;
+}
+.contlet3{
+ width:352px;
+ height:272px;
+ border:1px solid #dadada;
+ float:left;
+}
+.contlet3_a{
+ width:115px;
+ height:244px;
+ float:left;
+ margin:13px 15px 13px 5px;
+}
+.contlet3_b{
+ width:212px;
+ height:246px;
+ margin-top:13px;
+ float:left;
+}
+.contlet3_b p{
+ margin-bottom:10px;
+ font-size:12px;
+ line-height:22px;
+ color:#333333;
+}
+
+.contlet3_b a{
+ width:86px;
+ height:23px;
+ float:left;
+ color:#663300;
+ text-decoration:none;
+ background:#eeeeee;
+ border:1px solid #cccccc;
+ font-size:13px;
+ font-weight:bold;
+ text-align:center;
+ padding-top:3px;
+}
+
+/*首页右边栏目*/
+.contrit{
+ width:252px;
+ height:auto;
+ float:left;
+ margin-left:10px;
+}
+.contrit1{
+ width:250px;
+ height:198px;
+ border:1px solid #dadada;
+ margin-bottom:10px;
+ clear:both;
+}
+.contrit1 a{
+ color:#333333;
+ text-decoration:none;
+}
+.contrit1 h4{
+ height:23px;
+ background:url(../images/lanmu5.jpg);
+ padding:8px 0px 0px 20px;
+ font-size:14px; 
+}
+.contrit1 h3{
+ height:76px;
+ background:url(../images/dianhua.jpg) no-repeat;
+ margin:8px 0px 5px 5px;
+ padding-top:16px;
+ font-size:22px;
+}
+.contrit1 h3 p{
+ text-align:center;
+ line-height:30px;
+ color:#0595fa;
+ margin-left:15px;
+ font-family:"黑体";
+}
+.contrit2{
+ width:250px;
+ height:252px;
+ border:1px solid #dadada;
+ margin-bottom:10px;
+ clear:both;
+}
+.contrit2 p{
+ font-size:12px;
+ line-height:14px;
+ margin-left:8px;
+}
+
+/*内页*/
+.cont{
+ width:716px;
+ height:auto;
+ float:left;
+ border:1px solid #dadada;
+}
+
+/*会计风采*/
+.fc{
+ width:978px;
+ height:163px;
+ border:1px solid #dadada;
+ margin:0px auto;
+ padding:0px;
+ clear:both;
+}
+/*龙华风采滚动*/
+#demo {
+background:#FFF;
+overflow:hidden;
+width:966px;
+margin:0px 6px;
+}
+#demo img {
+border:2px solid #F2F2F2;
+width:183px;
+height:119px;
+
+}
+#indemo {
+float: left;
+width: 800%;
+}
+#demo1 {
+float: left;
+}
+#demo2 {
+float: left;
+}
+
+/*友情链接*/
+.yq{
+  margin:13px auto 0px;
+  width:958px;
+  height:60px;
+  border:1px solid #dadada;
+  padding:5px 10px 0px;
+  clear:both;
+ }
+.yq ul li{
+ list-style:none;
+ display:inline;
+ }
+.yq a{
+  margin:5px 10px 5px 0px;
+  color:#333333;
+  text-decoration:none;
+  line-height:23px;
+ }
+ /*尾部*/
+.footer{
+  width:980px;
+  height:128px;
+  margin:13px auto 0px;
+  padding-top:30px;
+  background:url(../images/footer.jpg) repeat;
+  clear:both;
+  }
+.footer p{
+  line-height:20px;
+  text-align:center;
+  color:#444444;
+  font-size:13px;
+ }
+a:hover{
+  text-decoration:underline;
+  color:#f92d15;
+ } 
